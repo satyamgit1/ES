@@ -1,0 +1,17 @@
+Software Testing:
+Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. 
+The benefits of testing include preventing bugs, reducing development costs and improving performance.
+Types of Testing:
+Manual testing or ad-hoc testing may be enough for small builds. However, for larger systems, tools are frequently used to automate tasks. 
+1. Black Box
+2. White Box
+White box testing is a software testing technique that involves testing the internal structure and workings of a software application. The tester has access to the source code and uses this knowledge to design test cases that can verify the correctness of the software at the code level
+Statement coverage: In this technique, the aim is to traverse all statement at least once.
+Branch Coverage: In this technique, test cases are designed so that each branch from all decision points are traversed at least once. In a flowchart, all edges must be traversed at least once
+Condition Coverage: In this technique, all individual conditions must be covered.
+Black Box testing is a technique of software testing which examines the functionality of software without peering into its internal structure or coding. The primary source of black box testing is a specification of requirements that is stated by the customer.
+a. Unit Test: Unit tests are very low level and close to the source of an application. They consist in testing individual methods and functions of the classes, components, or modules used by your software.
+b. Integration tests verify that different modules or services used by your application work well together. For example, it can be testing the interaction with the database or making sure that microservices work together as expected. 
+c. Functional tests focus on the business requirements of an application. They only verify the output of an action and do not check the intermediate states of the system when performing that action.
+3. Grey Box
+Automated testing helps teams implement different scenarios, test differentiators (such as moving components into a cloud environment), and quickly get feedback on what works and what doesn't.

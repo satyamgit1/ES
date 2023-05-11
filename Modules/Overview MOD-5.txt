@@ -1,0 +1,34 @@
+Project Scheduling:
+Software project scheduling is an activity that distributes estimated effort across the planned project duration by allocating the effort to specificsoftware engineering tasks.
+We can prepare Gantt Chart for the same
+Phases:
+Compartmentalization: The project must be compartmentalized into a number of manageable activities and tasks. 
+Interdependency: The interdependency of each compartmentalized activity or task must be determined. Some tasks must occur in sequence while others can occur in parallel.
+Time allocation: Each task to be scheduled must be allocated some number of work units (e.g., person-days of effort). In addition, each task must be assigned a start date and a completion date that are a function of the interdependencie
+Effort validation: As time allocation occurs, the project manager must ensure that no more than the allocated number of people have been scheduled at any given time
+
+COCOMO:
+The model is for estimating effort, cost, and schedule for software projects. This model is used to give an approximate estimate of the various parameters of the project.
+COCOMO 2:
+The COCOMO-II is the revised version of the original Cocomo. This model calculates the development time and effort taken as the total of the estimates of all the individual subsystems. In this model, whole software is divided into different modules.
+Difference:
+COCOMO I is useful in the waterfall models of the software 
+development cycle.
+COCOMO II is useful in non-sequential, rapid development and reuse models of software.
+It provides estimates of effort and schedule. It provides estimates that represent one standard deviation around the most likely estimate.
+COCOMO I 
+This model is based upon the linear reuse formula. This model is based upon the non linear reuse formula
+COCOMO II
+This model is also based upon the assumption of reasonably stable requirements.
+COCOMO I 
+This model is also based upon reuse model which looks at effort needed to understand and estimate.
+COCOMO II
+Effort equation’s exponent is determined by 3 development modes. Effort equation’s exponent is determined by 5 scale factors.
+COCOMO I 
+Development begins with the requirements assigned to the software. It follows a spiral type of development.
+COCOMO II
+Number of submodels in COCOMO I is 3 and 15 cost drivers are assigned
+COCOMO I 
+In COCOMO II, Number of submodel are 4 and 17 cost drivers are assigned
+COCOMO II
+Size of software stated in terms of Lines of code Size of software stated in terms of Object points, function points and lines of code

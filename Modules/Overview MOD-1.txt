@@ -1,0 +1,114 @@
+Module-1:
+
+What is Software ?
+Software engineering is the application of principles used in the field of engineering, which usually deals with physical systems, to the design, development, testing, deployment and management of software systems.
+
+Types of Software:
+Stand-alone systems that are marketed and sold to any customer who wishes to buy them
+Software that is commissioned by a specific customer to meet their own needs. Examples – embedded control systems, air traffic control software, traffic monitoring systems.
+
+Necessity of Software Evolution:
+a) Change in requirement with time
+b) Environment change
+c) Errors and bugs
+d) Security risks
+e) For having new functionality and features
+
+Importance of SE:
+1. Reduces Complexity
+2. Handling Big Projects
+3. To Minimize Software Costs
+4. To Decrease Time
+5. Effectiveness
+6. Reliable Software
+
+SDLC(software decvelopmet life cycle):
+Software Development Life Cycle (SDLC) is a process used by the software industry to design,develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.
+Stage 1: Planning and Requirement Analysis
+Stage 2: Defining Requirements
+Stage 3: Designing the Product Architecture
+Stage 4: Building or Developing the Product
+Stage 5: Testing the Product
+Stage 6: Deployment in the Market and Maintenance
+
+Software Models:
+Waterfall model(Traditional model):
+Waterfall Model is a sequential model that divides software development into pre-defined phases. 
+Each phase must be completed before the next phase can begin with no overlap between the phases.
+Feasibility Study: The main goal of this phase is to determine whether it would be financially and technically feasible to develop the software.
+Different phases:
+Requirement Gathering stage
+Design Stage
+Built Stage 
+Test Stage
+Deployment stage
+Maintenance stage
+Advantages:
+Before the next phase of development, each phase must be completed
+Suited for smaller projects where requirements are well defined
+Disadvantages:
+Error can be fixed only during the phase
+It is not desirable for complex project where requirement changes frequently
+
+Spiral Model:
+A software project repeatedly passes through these phases in iterations called Spirals
+Phases:
+Identification:This phase starts with gathering the business requirements in the baseline spiral. 
+Design:The Design phase starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals
+Construct or Build:The Construct phase refers to production of the actual software product at every spiral. 
+Evaluation and Risk Analysis:Risk Analysis includes identifying, estimating and monitoring the technical feasibility and management risks
+ 
+Agile Model:
+The Agile Model is an incremental and iterative process of software development. 
+Agile Model divides tasks into time boxes to provide specific functionality for the release.
+The division of the entire project into small parts helps minimize the project risk and the overall project delivery time.
+Advantages:
+Is a very realistic approach to software development.
+Promotes teamwork and cross training.
+Functionality can be developed rapidly and demonstrated.
+Resource requirements are minimum.
+Suitable for fixed or changing requirements
+Disadvantages:
+Not suitable for handling complex dependencies.
+More risk of sustainability, maintainability and extensibility.
+An overall plan, an agile leader and agile PM practice is a must without which it will not work.
+Strict delivery management dictates the scope, functionality to be delivered, and adjustments to meet the deadlines
+Agile model has different Process Model:
+SCRUM is an agile development method which concentrates specifically on how to manage tasks within a team-based development environment.
+
+V-Model:
+V-Model also referred to as the Verification and Validation Model.
+It follows a sequential design process same as the waterfall model. 
+Testing of the device is planned in parallel with a corresponding stage of development.
+Advantage:
+Testing Methods like planning, test designing happens well before coding.
+This saves a lot of time. Hence a higher chance of success over the waterfall model.
+Disadvantage:
+Software is developed during the implementation stage, so no early prototypes of the software are produced.
+If any changes happen in the midway, then the test documents along with the required documents, has to be updated.
+
+RAD Model:
+In RAD model, there is less attention paid to the planning and more priority is given to the development tasks.
+It emphasizes on delivering projects in small pieces; the larger projects are divided into a series of smaller projects.
+Phases of RAD Model:
+Buisness Model: On basis of the flow of information and distribution between various business channels, the product is designed
+Data Modeling: The information collected from business modeling is refined into a set of data objects that are significant for the business
+Process Modeling: The data object that is declared in the data modeling phase is transformed to achieve the information flow necessary to implement a business function
+Application Generation: •Automated tools are used for the construction of the software, to convert process and data models into prototypes
+Testing and Turnover: As prototypes are individually tested during every iteration, the overall testing time is reduced in RAD
+Advantages:
+It is easier to transfer deliverables as scripts, high-level abstractions and intermediate codes are used
+Due to code generators and code reuse, there is a reduction of manual coding
+Disadvantages:
+Reduced features due to time boxing, where features are pushed to a later version to finish a release in short period
+Reduced scalability occurs because a RAD developed application begins as a prototype and evolves into a finished application
+
+DevOps
+The DevOps lifecycle consists of eight phases representing the processes, capabilities, and tools needed for development (on the left side of the loop) and operations (on the right side of the loop). 
+Discover: In preparation for the upcoming sprint, teams must workshop to explore, organize, and prioritize ideas.
+Plan: Team should Plan using Agile Model to improve speed
+Test: Merging and testing code often help development teams gain reassurance in the quality and predictability of code once deployed
+Deploy: Teams also have the option to deploy with feature flags, delivering new code to users steadily and methodically rather than all at once. This approach improves velocity, productivity, and sustainability of software development teams.
+Operate: This includes the practices involved in design, implementation, configuration, deployment, and maintenance of all IT infrastructure that supports an organization’s services.
+Obseve: Quickly identify and resolve issues that impact product uptime, speed, and functionality. 
+Continous Feedback: DevOps teams should evaluate each release and generate reports to improve future releases.
